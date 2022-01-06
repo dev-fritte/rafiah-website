@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { GatsbyImage } from "gatsby-plugin-image";
+import {GatsbyImage} from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
@@ -13,13 +13,7 @@ export default function FullWidthImage(props) {
 
   return (
     <React.Fragment>
-      <div
-        className="margin-top-0"
-        style={{
-          display: "grid",
-          alignItems: "center",
-        }}
-      >
+      <div className="margin-top-0" style={{display: "grid", alignItems: "center"}}>
         {img?.url ? (
           <img
             src={img}
@@ -72,8 +66,8 @@ export default function FullWidthImage(props) {
                 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                      "rgb(54, 147, 208) 0.5rem 0px 0px, rgb(54, 147, 208) -0.5rem 0px 0px",
+                  backgroundColor: "rgb(54, 147, 208)",
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25em",
@@ -87,8 +81,8 @@ export default function FullWidthImage(props) {
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                      "rgb(54, 147, 208) 0.5rem 0px 0px, rgb(54, 147, 208) -0.5rem 0px 0px",
+                  backgroundColor: "rgb(54, 147, 208)",
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
